@@ -1,0 +1,432 @@
+{
+  "source": "assets/data/knowledge_raw.json",
+  "inputCount": 46,
+  "outputCount": 46,
+  "failedIds": [],
+  "model": "embeddinggemma-300M-Q8_0.gguf",
+  "documentFormat": "title: none | text: {name}:{description}",
+  "dimensions": 768,
+  "minPositive": 0.5088897542252255,
+  "maxNegative": 0.29543390218108395,
+  "minSimilarity": 0.4021618282031547,
+  "separable": true,
+  "cases": [
+    {
+      "split": "calibration",
+      "input": "新設一間有限公司，要在哪裡付辦理登記的費用？",
+      "expected": 1,
+      "top3": [
+        {
+          "id": 1,
+          "score": 0.5088897542252255
+        },
+        {
+          "id": 2,
+          "score": 0.438781767823869
+        },
+        {
+          "id": 3,
+          "score": 0.37097233900789367
+        }
+      ],
+      "expectedScore": 0.5088897542252255,
+      "actual": [
+        1,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "我想打流感預防針，要先到哪裡約時間？",
+      "expected": 31,
+      "top3": [
+        {
+          "id": 31,
+          "score": 0.5244943136014403
+        },
+        {
+          "id": 32,
+          "score": 0.3096197475750472
+        },
+        {
+          "id": 24,
+          "score": 0.2807118012191856
+        }
+      ],
+      "expectedScore": 0.5244943136014403,
+      "actual": [
+        31
+      ],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "想向市立圖書館借幾本書回家看",
+      "expected": 39,
+      "top3": [
+        {
+          "id": 39,
+          "score": 0.55775572394381
+        },
+        {
+          "id": 38,
+          "score": 0.3105813825487101
+        },
+        {
+          "id": 26,
+          "score": 0.30212408924985806
+        }
+      ],
+      "expectedScore": 0.55775572394381,
+      "actual": [
+        39
+      ],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "帶狗狗散步，哪裡能查到歡迎寵物的地方？",
+      "expected": 36,
+      "top3": [
+        {
+          "id": 36,
+          "score": 0.5287334831350822
+        },
+        {
+          "id": 40,
+          "score": 0.32251614895747177
+        },
+        {
+          "id": 41,
+          "score": 0.3074785341757752
+        }
+      ],
+      "expectedScore": 0.5287334831350822,
+      "actual": [
+        36
+      ],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "想在手機上收聽臺北的廣播節目",
+      "expected": 33,
+      "top3": [
+        {
+          "id": 33,
+          "score": 0.565121593496193
+        },
+        {
+          "id": 42,
+          "score": 0.34041672254561456
+        },
+        {
+          "id": 32,
+          "score": 0.2965972913277076
+        }
+      ],
+      "expectedScore": 0.565121593496193,
+      "actual": [
+        33
+      ],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "請教我用奶油製作巧克力布朗尼",
+      "expected": null,
+      "top3": [
+        {
+          "id": 23,
+          "score": 0.16874697135439923
+        },
+        {
+          "id": 20,
+          "score": 0.14847081975787904
+        },
+        {
+          "id": 42,
+          "score": 0.14790121014196825
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "解釋黑洞的事件視界和霍金輻射",
+      "expected": null,
+      "top3": [
+        {
+          "id": 16,
+          "score": 0.14502274548703456
+        },
+        {
+          "id": 18,
+          "score": 0.1411599061693063
+        },
+        {
+          "id": 42,
+          "score": 0.13564492052440713
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "Python 的垃圾回收器如何釋放記憶體？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 17,
+          "score": 0.20647968486016108
+        },
+        {
+          "id": 16,
+          "score": 0.20110579573241982
+        },
+        {
+          "id": 8,
+          "score": 0.1903203004973587
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "calibration",
+      "input": "科幻小說裡的動物園星球怎麼設計外星生物？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 41,
+          "score": 0.29543390218108395
+        },
+        {
+          "id": 36,
+          "score": 0.15852824507392219
+        },
+        {
+          "id": 23,
+          "score": 0.1455838503184931
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "公司剛成立，我要支付註冊公司的規費",
+      "expected": 1,
+      "top3": [
+        {
+          "id": 1,
+          "score": 0.5074246337741566
+        },
+        {
+          "id": 2,
+          "score": 0.4248749969821573
+        },
+        {
+          "id": 3,
+          "score": 0.3514966410542021
+        }
+      ],
+      "expectedScore": 0.5074246337741566,
+      "actual": [
+        1,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "如何安排新冠預防接種的日期？",
+      "expected": 31,
+      "top3": [
+        {
+          "id": 31,
+          "score": 0.4830766613791048
+        },
+        {
+          "id": 32,
+          "score": 0.2018066650924512
+        },
+        {
+          "id": 34,
+          "score": 0.19050415515518956
+        }
+      ],
+      "expectedScore": 0.4830766613791048,
+      "actual": [
+        31
+      ],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "我想借閱北市圖的小說",
+      "expected": 39,
+      "top3": [
+        {
+          "id": 39,
+          "score": 0.375888715887322
+        },
+        {
+          "id": 26,
+          "score": 0.2824751927583706
+        },
+        {
+          "id": 33,
+          "score": 0.27800219318109437
+        }
+      ],
+      "expectedScore": 0.375888715887322,
+      "actual": [],
+      "passed": false
+    },
+    {
+      "split": "validation",
+      "input": "哪裡可以找出適合牽狗去玩的友善地圖？",
+      "expected": 36,
+      "top3": [
+        {
+          "id": 36,
+          "score": 0.5918790981090313
+        },
+        {
+          "id": 40,
+          "score": 0.43693919413757926
+        },
+        {
+          "id": 41,
+          "score": 0.36216319006444486
+        }
+      ],
+      "expectedScore": 0.5918790981090313,
+      "actual": [
+        36,
+        40
+      ],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "可以在線上聽臺北廣播電臺嗎？",
+      "expected": 33,
+      "top3": [
+        {
+          "id": 33,
+          "score": 0.6188791547022178
+        },
+        {
+          "id": 32,
+          "score": 0.34977474999125907
+        },
+        {
+          "id": 42,
+          "score": 0.30671356806011557
+        }
+      ],
+      "expectedScore": 0.6188791547022178,
+      "actual": [
+        33
+      ],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "如何證明質數有無限多個？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 18,
+          "score": 0.21180528870443682
+        },
+        {
+          "id": 38,
+          "score": 0.1794330923923229
+        },
+        {
+          "id": 19,
+          "score": 0.17121416047859508
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "西班牙海鮮燉飯要放哪些香料？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 36,
+          "score": 0.1314485661537212
+        },
+        {
+          "id": 23,
+          "score": 0.12629494515019268
+        },
+        {
+          "id": 35,
+          "score": 0.12475455779140288
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "寫程式時如何模擬物件的生命週期與垃圾回收？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 8,
+          "score": 0.19053549464221542
+        },
+        {
+          "id": 16,
+          "score": 0.18751495987863717
+        },
+        {
+          "id": 38,
+          "score": 0.18431031851211865
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    },
+    {
+      "split": "validation",
+      "input": "如何在小說中描寫寵物龍的魔法技能？",
+      "expected": null,
+      "top3": [
+        {
+          "id": 36,
+          "score": 0.232643565637232
+        },
+        {
+          "id": 39,
+          "score": 0.13368121381733095
+        },
+        {
+          "id": 20,
+          "score": 0.1280372415829194
+        }
+      ],
+      "expectedScore": null,
+      "actual": [],
+      "passed": true
+    }
+  ]
+}

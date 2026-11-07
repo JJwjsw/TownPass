@@ -1,0 +1,20 @@
+[
+ {"split":"calibration","input":"新設一間有限公司，要在哪裡付辦理登記的費用？","expected":1},
+ {"split":"calibration","input":"我想打流感預防針，要先到哪裡約時間？","expected":31},
+ {"split":"calibration","input":"想向市立圖書館借幾本書回家看","expected":39},
+ {"split":"calibration","input":"帶狗狗散步，哪裡能查到歡迎寵物的地方？","expected":36},
+ {"split":"calibration","input":"想在手機上收聽臺北的廣播節目","expected":33},
+ {"split":"calibration","input":"請教我用奶油製作巧克力布朗尼","expected":null},
+ {"split":"calibration","input":"解釋黑洞的事件視界和霍金輻射","expected":null},
+ {"split":"calibration","input":"Python 的垃圾回收器如何釋放記憶體？","expected":null},
+ {"split":"calibration","input":"科幻小說裡的動物園星球怎麼設計外星生物？","expected":null},
+ {"split":"validation","input":"公司剛成立，我要支付註冊公司的規費","expected":1},
+ {"split":"validation","input":"如何安排新冠預防接種的日期？","expected":31},
+ {"split":"validation","input":"我想借閱北市圖的小說","expected":39},
+ {"split":"validation","input":"哪裡可以找出適合牽狗去玩的友善地圖？","expected":36},
+ {"split":"validation","input":"可以在線上聽臺北廣播電臺嗎？","expected":33},
+ {"split":"validation","input":"如何證明質數有無限多個？","expected":null},
+ {"split":"validation","input":"西班牙海鮮燉飯要放哪些香料？","expected":null},
+ {"split":"validation","input":"寫程式時如何模擬物件的生命週期與垃圾回收？","expected":null},
+ {"split":"validation","input":"如何在小說中描寫寵物龍的魔法技能？","expected":null}
+]

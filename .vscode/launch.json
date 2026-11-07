@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TownPass Embedding (Android)",
+      "type": "dart",
+      "request": "launch",
+      "emulatorId": "TownPass_RAG_API_36",
+      "program": "lib/main.dart",
+      "cwd": "${workspaceFolder}",
+      "flutterMode": "debug"
+    }
+  ]
+}
