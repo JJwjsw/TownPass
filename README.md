@@ -2,7 +2,7 @@
 
 本專案以臺北市政府 TownPass Flutter 專案為基礎，加入本機語意檢索聊天介面。使用者可打字或語音輸入問題，由 EmbeddingGemma 將問題轉成向量，再從服務資料中找出相關項目並提供導航卡片。
 
-**目前是 embedding 檢索版本，沒有生成式 LLM 回答、雲端 AI API 或另外啟動的向量資料庫。**回答的名稱與說明來自資料原文；系統語音辨識及外部服務網頁則可能需要網路。
+目前是 embedding 檢索版本，沒有生成式 LLM 回答、雲端 AI API 或另外啟動的向量資料庫。回答的名稱與說明來自資料原文；系統語音辨識及外部服務網頁則可能需要網路。
 
 - 主要驗證平台：Windows 開發環境、Android 16／API 36 模擬器。
 - Android applicationId：`com.example.townpass.rag`。
